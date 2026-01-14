@@ -1,7 +1,7 @@
 ﻿console.log("DATA OK");
 
 const CANVAS_RATIO_WIDTH = 0.767;
-const CANVAS_RATIO_HEIGHT = 0.65;
+const CANVAS_RATIO_HEIGHT = 0.7;
 
 /* =========================
    PLAYER (Tx)
@@ -9,7 +9,7 @@ const CANVAS_RATIO_HEIGHT = 0.65;
 const PLAYER = {
     width: 20,
     height: 20,
-    color: '#890617', // red ribbon
+    color: '#d20e28', // red ribbon
     speed: 7
 };
 
@@ -42,7 +42,7 @@ const SPAWN_RATE = { start: 1.25, min: 0.25 };
 /* =========================
    SUPPORT ITEMS
 ========================= */
-const SUPPORT_ITEM = { width: 18, height: 18, speed: 3.5 };
+const SUPPORT_ITEM = { width: 45, height: 45, speed: 7 };
 
 const SUPPORT_ITEMS = {
     shield: { start: 10, interval: 20, color: '#0b5d2a', width: SUPPORT_ITEM.width, height: SUPPORT_ITEM.height },
